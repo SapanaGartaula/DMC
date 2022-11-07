@@ -1,0 +1,60 @@
+
+
+body{
+    background-color: darkolivegreen;
+}
+    img{
+    height:70px;
+    width:auto;
+    font-style: normal;
+    padding-left: 300px;
+    float: left;
+}
+header{
+    background-color: rgb(2, 30, 2);
+    padding: 20px;
+    text-align:left;
+    margin: auto;
+    color: white;
+    
+}
+
+
+.submit { 
+    background-color: darkolivegreen;
+}
+
+    ul li{
+         display:inline-block;
+         list-style:none;
+        margin: 10px 20px;
+}
+
+ul li a{
+    color: rgb(245,246,251);
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color:rgb(245,256,251);
+    color: rgb(12,100,198);
+}
+
+.row{
+    display:flex;
+    background-color: rgb(7, 40, 40);
+
+}
+.column{
+    flex:50%;
+    color: black;
+    font-size: medium;
+}
+footer{
+    background-color: rgb(14, 14, 48);
+    height:400px;
+    width: 1350px;
+}
+.iframe{
+    float: right;
+}
